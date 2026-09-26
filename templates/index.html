@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dublin Bikes - Explore</title>        
+    <link rel="stylesheet" href="../static/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Anuphan" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>                
+            <img src="../static/Media/bike.png" alt="Blue bike logo" class="responsive" id="bike">
+            <a class="title">DublinBikes</a>                
+            <a href="/homepage" class="home-link">Home</a>
+        </h1>
+    </header>
+    <div id="sidebar">
+        <input type="text" placeholder="Location Search" id="search1"> 
+        <div id="menu-bar">SEE FAVORITE STATIONS</div>
+        <div id="weather-container">
+            <div id="weather">Loading weather...</div>
+        </div>
+    </div>
+    <div id="map"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../static/js/script.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key={{ google_maps_key }}&callback=initMap&libraries=marker,places&v=weekly"></script>
+</body>
+</html>
