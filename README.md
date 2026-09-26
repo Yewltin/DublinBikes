@@ -1,6 +1,11 @@
 # 🚲 DublinBikes
 COMP30380: SW Engineering Group 13 Project
 
+## Project Screenshot
+
+<img width="1280" height="682" alt="19490" src="https://github.com/user-attachments/assets/881373b1-8382-47a1-847c-e52dbaba23e5" />
+
+
 ## 📚 Table of Contents
 - [✨ Project Features](#-project-features)
 - [🔨 Tools Used](#-tools-used)
